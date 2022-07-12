@@ -1,0 +1,12 @@
+g++ -c main.cpp
+g++ -c ctree.cpp
+g++ -c Edge.cpp
+g++ -c Interval.cpp
+g++ -c LineSegment.cpp
+g++ -c Point.cpp
+g++ -c Rectangle.cpp
+g++ -c Stripe.cpp
+
+g++ -o main main.o ctree.o Edge.o Interval.o LineSegment.o Point.o Rectangle.o Stripe.o
+
+main
